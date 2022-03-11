@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
 *main - all code must be done inside
+*
 *Return: 0 if sccessfull
 */
 int main(void)
