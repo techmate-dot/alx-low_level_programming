@@ -8,26 +8,25 @@
 */
 int main(void)
 {
-int num1 = 48;
-int num2 = 49;
-int looper = 0;
-while (looper < 45)
+int u = 49;
+int d = 48;
+int position_u = 49;
+while (d <= 56)
 {
-while (num2 < 58)
+while (u <= 57)
 {
-putchar(num1);
-putchar(num2);
-if (looper != 44)
+putchar(d);
+putchar(u);
+if (d != 56 || u != 57)
 {
 putchar(',');
 putchar(' ');
 }
-num2++;
-looper++;
+u++;
 }
-num2 = num1 + 1;
-num1++;
-num2++;
+d++;
+position_u++;
+u = position_u;
 }
 putchar('\n');
 return (0);
