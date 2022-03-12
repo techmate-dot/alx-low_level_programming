@@ -8,11 +8,10 @@
 */
 int main(void)
 {
-char alph = 'a';
+char alph = '0';
 int num = 0;
-while (num < 26)
+while (num < 10)
 {
-if (alhp != 'q' && alph != 'e')
 putchar(alph);
 alph++;
 num++;

@@ -12,7 +12,6 @@ char alph = 'a';
 int num = 0;
 while (num < 26)
 {
-if (alhp != 'q' && alph != 'e')
 putchar(alph);
 alph++;
 num++;
