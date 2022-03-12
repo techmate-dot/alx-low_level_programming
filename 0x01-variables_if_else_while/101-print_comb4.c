@@ -15,6 +15,7 @@ int position_u = u;
 int position_d = d;
 int position_uu = u;
 while (c <= 55)
+{
 while (d <= 56)
 {
 while (u <= 57)
