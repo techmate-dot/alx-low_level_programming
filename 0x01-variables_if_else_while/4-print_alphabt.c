@@ -13,11 +13,9 @@ int num = 0;
 while (num < 26)
 {
 if (alph != 'q' && alph != 'e')
-{
 putchar(alph);
 alph++;
 num++;
-}
 }
 putchar('\n');
 return (0);
