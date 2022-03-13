@@ -4,33 +4,33 @@
 /**
 *main - entry point
 *
-*Return: 0
+*Return: 0 if no error found
 */
 int main(void)
 {
-int a;
-int b;
-int last;
-a = 0;
-while (a <= 99)
+int num1;
+int num2;
+int checker;
+num1 = 0;
+while (num1 <= 99)
 {
-b = a + 1;
-while (b <= 99)
+num2 = num1 + 1;
+while (num2 <= 99)
 {
-last = !(a == 98 && b == 99);
-putchar(48 + a / 10);
-putchar(48 + a % 10);
+checker = !(num1 == 98 && num2 == 99);
+putchar(48 + num1 / 10);
+putchar(48 + num1 % 10);
 putchar(' ');
-putchar(48 + b / 10);
-putchar(48 + b % 10);
-if (last)
+putchar(48 + num2 / 10);
+putchar(48 + num2 % 10);
+if (checker)
 {
 putchar(',');
 putchar(' ');
 }
-b++;
+num2++;
 }
-a++;
+num1++;
 }
 putchar('\n');
 return (0);
