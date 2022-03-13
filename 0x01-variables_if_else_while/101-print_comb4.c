@@ -22,7 +22,7 @@ if (num1 != 55)
 {
 putchar(',');
 }
-putchar(' ');
+putchar('');
 num3++;
 }
 if (num2 == 56)
@@ -33,5 +33,6 @@ num1++;
 num2++;
 num3 = num2 + 1;
 }
+putchar('\n');
 return (0);
 }
