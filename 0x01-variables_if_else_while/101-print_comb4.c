@@ -22,7 +22,7 @@ if (num1 != 55)
 {
 putchar(',');
 }
-putchar(" ");
+putchar(' ');
 num3++;
 }
 if (num2 == 56)
