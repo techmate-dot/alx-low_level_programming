@@ -8,40 +8,30 @@
 */
 int main(void)
 {
-int u = 50;
-int d = 49;
-int c = 48;
-int position_u = u;
-int position_d = d;
-int position_uu = u;
-while (c <= 55)
+int num1 = 48;
+int num2 = 49;
+int num3 = 50;
+while (num1 < 56)
 {
-while (d <= 56)
+while (num3 < 58)
 {
-while (u <= 57)
-{
-putchar(c);
-putchar(d);
-putchar(u);
-if (c != 55 || d != 56 || u != 57)
+putchar(num1);
+putchar(num2);
+putchar(num3);
+if (num1 != 55)
 {
 putchar(',');
-putchar(' ');
+putchar(" ");
 }
-u++;
+num3++;
 }
-d++;
-position_u++;
-u = position_u;
+if (num2 == 56)
+{
+num2 = num1 + 1;
+num1++;
 }
-position_u = position_uu;
-position_u++;
-position_uu++;
-u = position_u;
-position_d++;
-d = position_d;
-c++;
+num2++;
+num3 = num2 + 1;
 }
-putchar('\n');
 return (0);
 }
