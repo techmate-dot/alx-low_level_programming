@@ -16,5 +16,9 @@ else if (c >= 65 && c <= 90)
 {
 a = 0;
 }
+else
+{
+a = 0;
+}
 return (a);
 }
