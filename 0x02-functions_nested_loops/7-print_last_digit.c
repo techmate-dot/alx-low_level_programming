@@ -17,5 +17,6 @@ else
 {
 t = (n * -1) % 10;
 }
+_putchar('0' + t);
 return (t);
 }
