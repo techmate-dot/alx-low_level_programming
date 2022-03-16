@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
 *print_last_digit - returns the last digit of an int
@@ -15,7 +14,7 @@ t = (n % 10);
 }
 else
 {
-t = (n * -1) % 10;
+t = (n % 10) * -1;
 }
 _putchar('0' + t);
 return (t);
