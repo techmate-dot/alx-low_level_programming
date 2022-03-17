@@ -6,15 +6,13 @@
 */
 int _isupper(int c)
 {
-int r;
-r = 0;
 if (c >= 41 && c <= 90)
 {
-	r = 1;
+	return (1);
 }
 else
 {
-	r = 0;
+	return (0);
 }
-return (r);
+return (0);
 }
