@@ -10,9 +10,9 @@ int _isupper(int c)
 
 	r = 0;
 
-	number = 0;
+	number = 48;
 
-for (; letter <= 9; ++number)
+for (; number <= 57; ++number)
 {
 if (c == number)
 {
