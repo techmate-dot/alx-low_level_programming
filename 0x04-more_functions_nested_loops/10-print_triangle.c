@@ -10,12 +10,14 @@ int loop1, loop2, loop3;
 loop1 = 1;
 while (loop1 <= size && size > 0)
 {
+loop2 = 0;
 while (loop2 < (size  - loop1))
 {
 _putchar(' ');
 loop2++;
 }
 loop2 = 0;
+loop3 = 0;
 while (loop3 < loop1)
 {
 _putchar('#');
