@@ -13,21 +13,21 @@ for (fizz = 1; fizz <= 100; fizz++)
 if (fizz % 3 == 0 && fizz % 5 == 0)
 {
 printf("%s%s", f, b);
-putchar(' ');
 }
 else if (fizz % 5 == 0)
 {
 printf("%s", b);
-putchar(' ');
 }
 else if (fizz % 3 == 0)
 {
 printf("%s", f);
-putchar(' ');
 }
 else
 {
 printf("%i", fizz);
+}
+if (fizz != 100)
+{
 putchar(' ');
 }
 }
