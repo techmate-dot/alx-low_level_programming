@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-int n = 50829599;
+int n = 2;
 
 
 
