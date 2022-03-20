@@ -1,27 +1,26 @@
 #include <stdio.h>
 /**
-*main - yrst
+*main - pirnt the highest factor of 612852475143
 *Return: returns the value
 */
 int main(void)
 {
-int n = 2;
-
-
-
-
-
-
-
-
-
-
-
-
-
-printf("%d\n", n);
-
-
-
+long long num, max, i;
+num = 612852475143;
+max = 1;
+while (num % 2 == 0)
+{
+num /= 2;
+max = num;
+}
+for (i = 3; i <= num; i += 2)
+{
+if (num % i == 0)
+{
+max = i;
+num /= i;
+}
+}
+printf("%lld\n", max);
 return (0);
 }
