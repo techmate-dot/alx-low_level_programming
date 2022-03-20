@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-long long num, max, i;
+long num, max, i;
 num = 612852475143;
 max = 1;
 while (num % 2 == 0)
@@ -21,6 +21,6 @@ max = i;
 num /= i;
 }
 }
-printf("%lld\n", max);
+printf("%lu\n", max);
 return (0);
 }
