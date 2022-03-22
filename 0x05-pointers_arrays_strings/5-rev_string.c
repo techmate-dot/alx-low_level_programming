@@ -6,7 +6,7 @@
 
 void rev_string(char *s)
 {
-char c[50];
+char c[500];
 
 int length, f;
 f = 0;
