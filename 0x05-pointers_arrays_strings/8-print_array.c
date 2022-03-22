@@ -18,5 +18,5 @@ printf("%c", ' ');
 }
 i++;
 }
-printf("%c",'\n');
+printf("%c", '\n');
 }
