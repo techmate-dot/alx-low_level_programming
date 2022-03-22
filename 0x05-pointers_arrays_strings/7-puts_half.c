@@ -22,6 +22,7 @@ i++;
 else
 {
 i = (i - 1) / 2;
+i += 1;
 while (str[i] != '\0')
 {
 _putchar(str[i]);
