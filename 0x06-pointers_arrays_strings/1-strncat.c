@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_strncpy - A function that concatenates two strings.
+*_strncat - A function that concatenates two strings.
 *Return: This returns the consatenates string
 *@dest: first arguement
 *@src: second arguement
