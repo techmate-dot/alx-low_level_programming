@@ -2,6 +2,7 @@
 /**
 *reverse_array - A function that compares two strings
 *@n: First string
+*@a: string
 */
 void reverse_array(int *a, int n)
 {
