@@ -10,7 +10,7 @@ char *_strchr(char *s, char c)
 int i = 0;
 char *p;
 p = '\0';
-while (s[i] != '~')
+while (s[i] != '=')
 {
 if (s[i] == c)
 {
