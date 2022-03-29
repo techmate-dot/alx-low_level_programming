@@ -11,7 +11,7 @@ int i, s;
 char *r;
 s = 0;
 i = 0;
-r = '\0';
+r = 0;
 while (haystack[i] != '\0')
 {
 if ((haystack[i] == needle[0]) && (haystack[i] != '\0'))
