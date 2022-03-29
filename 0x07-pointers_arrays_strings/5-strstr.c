@@ -12,13 +12,13 @@ char *r;
 s = 0;
 i = 0;
 r = '\0';
-while (haystack[i] != 0)
+while (haystack[i] != '\0')
 {
-if (haystack[i] == needle[0])
+if ((haystack[i] == needle[0]) && (haystack[i] != '\0'))
 {
 s = 0;
 r = &haystack[i];
-while (needle[s] != 0)
+while (needle[s] != '\0')
 {
 if (haystack[i + s] != needle[s])
 {
