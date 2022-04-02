@@ -9,7 +9,7 @@
 
 int main(int c, char *v[])
 {
-int count = 0;
+unsigned int count = 0;
 int n = 1;
 
 if (c <= 1)
