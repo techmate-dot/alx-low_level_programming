@@ -18,7 +18,10 @@ printf("%i\n", 0);
 }
 while (n < c)
 {
+if (atoi(v[n]) > 0)
+{
 count += atoi(v[n]);
+}
 if (atoi(v[n]) == 0)
 {
 printf("Error\n");
