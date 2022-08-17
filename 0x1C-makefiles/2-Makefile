@@ -1,9 +1,9 @@
 CC = gcc
-SRC = ${wildcard *.c}
+SRC = main.c school.c
 OBJ = main.o school.o
 NAME = school
 
-all: ${OBJ}
+all: ${OBJ} ${SRC}
 	gcc ${OBJ} -o ${NAME}
 
 main.o: main.c
