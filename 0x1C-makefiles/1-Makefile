@@ -1,0 +1,4 @@
+cc = gcc
+src = *.c
+all:
+	$(cc) ${src} -o school
