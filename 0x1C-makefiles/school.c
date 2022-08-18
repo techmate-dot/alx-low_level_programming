@@ -5,6 +5,7 @@
  *
  * Return: Nothing
  */
+ //hhhg
 void print_school(void)
 {
 	printf("j#0000000000000000000000000000000000000\n");
